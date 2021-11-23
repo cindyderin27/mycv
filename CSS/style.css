@@ -65,6 +65,8 @@
 }
 
 .blockblanc{
+    display: flex;
+    flex-direction: row;
     position: absolute;
     background: white;
     left: 10px;
@@ -352,6 +354,7 @@ left: 30px;
 }
 .sousenfant2{
    background: #015F9F;
+
     /* height: 900px; */
 }
 
@@ -515,7 +518,7 @@ flex-direction: row;
 
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:768px) {
     .parent{
         display: flex;
         flex-direction: column;
@@ -524,16 +527,19 @@ flex-direction: row;
     }
     .enfant1{
         order:1;
+        width: 100%;
     }
     .enfant2{
         order:3;
-        margin-top: 350px;
-       
+        margin-top: 580px;
+        width: 100%;
     }
 
     .enfant3{
         order:2;
         margin-top: 20px;
+        width: 100%;
     }
+
   
 }
