@@ -47,6 +47,46 @@
     "enfant2 enfant3"
     "enfant2 enfant3"
     "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
+    "enfant2 enfant3"
     ;
     background: #F0F0F0;
     grid-column-gap: 2%;
@@ -562,8 +602,8 @@ flex-direction: row;
     }
     .enfant2{
         order:3;
-        margin-top: 360px;
       flex-wrap: wrap;
+
        
     }
    
@@ -572,6 +612,13 @@ flex-direction: row;
         order:2;
         margin-top: 20px;
     }
-
   
+
+   
+  
+}
+
+@media screen and (max-width:425px) {
+
+   
 }
