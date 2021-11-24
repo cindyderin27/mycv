@@ -207,7 +207,7 @@ width: 90%;
 
 .enfant3{
     grid-area: enfant3;
-    height: 1000px;
+    /* height: 1000px; */
     
 }
 .textNoir{
@@ -236,6 +236,7 @@ width: 90%;
     overflow-y: scroll;
     overflow-x: hidden;
     padding-left: 10px ;
+    height: 500px;
 
 }
 
@@ -461,7 +462,7 @@ padding: 20px;
 
 .sousenfant3_3{
     padding-top: 20px;
-    height: 500px;
+    /* height: 500px; */
     padding-bottom: 10px;
 }
 
@@ -533,7 +534,7 @@ flex-direction: row;
 }
 .basBlanc1{
     background: white;
-    height: 442px;
+    /* height: 442px; */
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding-bottom: 5px;
