@@ -13,6 +13,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 38% 60%;
+    box-shadow: 0 0 10px lightgrey;
     grid-template-areas:
     "enfant1 enfant3"
     "enfant2 enfant3"
@@ -96,6 +97,8 @@
 
 .enfant1{
     grid-area: enfant1;
+    box-shadow: 0 0 10px lightgrey;
+    /* box-shadow: 0 0 10px black; */
     /* height: 500px; */
     /* background: blueviolet; */
 }
@@ -148,6 +151,7 @@ width: 235px;
      padding: 20px;
      border-bottom-right-radius: 5px;
      border-bottom-left-radius:5px ;
+     box-shadow: 0 0 10px lightgrey;
 }
 .checkDex{
     margin-right: 20px;
@@ -269,7 +273,7 @@ width: 90%;
 .basBlanc{
         height: 299px;
         padding-top: 10px;
-        padding-left: 20px;
+        padding-left: 12px;
         padding-right: 20px;
         display: flex;
         flex-direction: column;
@@ -397,7 +401,7 @@ position: absolute;
 color: white;
 align-items: center;
 bottom:40px;
-left: 30px;
+left: 20px;
 
 }
 
@@ -478,12 +482,14 @@ padding: 20px;
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 6px;
     /* height: 20px; */
 }
 .français{
     display: flex;
     margin-top: 10px;
     margin-bottom: 5px;
+ 
 }
 .pointInteret{
     width: 54%;
@@ -501,7 +507,8 @@ padding: 20px;
     background: white;
     margin-right: 1px;
     border-radius: 5px;
-    padding: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 .sousenfant3_3{
@@ -667,5 +674,19 @@ flex-direction: row;
 
 
 }
-
+@media screen and (max-width:1024px) {
+    .blockblanc{
+        position: absolute;
+        background: white;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        flex-wrap: nowrap;
+    }
     
+}
+

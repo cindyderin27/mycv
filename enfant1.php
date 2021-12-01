@@ -41,7 +41,7 @@ echo '<div class="sousenfant1">
 
 <?php
 $cake="IMAGES/cake.png";
-$naissance="Né le 20 octobre 1986";
+$naissance="Née le 27 Juillet 2001";
 $originaire="Originaire du sud Cameroun";
 $situationmatrimoniale="Marié, 02enfants - Santé RAS";
 $location="IMAGES/location.png";
