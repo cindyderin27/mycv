@@ -688,7 +688,7 @@ flex-direction: row;
         display: flex;
         justify-content: space-between;
         padding: 10px;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
     
 }
