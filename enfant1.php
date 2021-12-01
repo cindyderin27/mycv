@@ -1,10 +1,5 @@
 <?php
 $main="IMAGES/main.png";
-$besoin1="Besoin";
-$besoin2="d'un";
-$besoin3="chef";
-$besoin4="de";
-$besoin5="projet?";
 $loupe="IMAGES/loupe.png";
 $delete="IMAGES/delete.png";
 $cindy="IMAGES/cindy.jpg";
@@ -18,7 +13,7 @@ echo '<div class="sousenfant1">
                 <div class="cover"></div>
                 <div class="blockblanc">
                     <img src='.$main.' class="icon" alt="" srcset="">
-                    <input type="search" name="" placeholder='.$besoin1.$besoin2.$besoin3.$besoin4.$besoin5.' class="searchbar" id="">
+                    <input type="search" name="" placeholder="Besoin d un chef de projet?" class="searchbar" id="">
                     <div class="icon_searchbar">
                         <img src='.$loupe.' class="icon" alt="" srcset="">
                         <span class="divider"></span>
