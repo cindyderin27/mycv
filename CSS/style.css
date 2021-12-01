@@ -655,7 +655,7 @@ flex-direction: row;
         display: flex;
         justify-content: space-between;
         padding: 10px;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 
     .enteteExperience{
@@ -731,3 +731,48 @@ flex-direction: row;
 
 }
 }
+
+@media screen and (max-width:750px) {
+    .basBlanc1{
+        background: white;
+         height: 700px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-bottom: 5px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .scroll{
+       
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-left: 10px ;
+        height: 700px;
+    
+    }
+    }
+
+
+    @media screen and (max-width:614px) {
+        .basBlanc1{
+            background: white;
+             height: 700px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding-bottom: 5px;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .scroll{
+           
+            overflow-y: scroll;
+            overflow-x: hidden;
+            padding-left: 10px ;
+            height: 700px;
+        
+        }
+        }
