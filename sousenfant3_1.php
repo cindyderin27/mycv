@@ -79,7 +79,7 @@
         $lien4=" - http://bao-sarl.com";
         $sousnbrannee5  = date("2013") - date("2012") ; 
 
-        $experienceTotal=$sousnbrannee3 + 2;
+        $experienceTotal=$sousnbrannee3;
 
 
              echo '<div class="enteteExperience">
