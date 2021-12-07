@@ -72,7 +72,7 @@ class Personne{
                                     <h5>Envoyer un message</h5>
                                 </div>
                                 <div class="modal-body">
-                                    <form method="POST" action="index.php">
+                                    <form method="POST" action="SendMail.php">
                                             <div class="mb-3">
                                                 <label for="recipient-name" class="col-form-label">Adresse mail:</label>
                                                 <input type="text" class="form-control" id="recipient-name" name="adresseMail">
