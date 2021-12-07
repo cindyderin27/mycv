@@ -3,15 +3,16 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    
 }
 
 
 
 .parent{
-    width: 80%;
+    width: 98%;
     margin: auto;
     display: grid;
-    grid-template-columns: 40% 58%;
+    grid-template-columns: 38% 60%;
     grid-template-areas:
     "enfant1 enfant3"
     "enfant2 enfant3"
@@ -90,7 +91,7 @@
     ;
     background: #F0F0F0;
     grid-column-gap: 2%;
-    padding: 10px;
+    padding: 1% ; 
 }
 
 .enfant1{
@@ -120,7 +121,7 @@
     display: flex;
     /* flex:1; */
     justify-content: space-around;
-    width: 70px;
+    width: 90px;
     right: inherit;
 }
 
@@ -129,7 +130,9 @@
   outline: none;
 font-size: 18px;
 color: lightgray;
+
 width: 235px;
+/* flex-grow: 1; */
 
 }
 
@@ -365,9 +368,9 @@ width: 4px;
     border: 3px solid var(--scrollbarBG);
   } */
 
-.basDroit{
+/* .basDroit{
     margin-top: 10px;
-}
+} */
 .cover{
     position: absolute;
     top: 0px;
@@ -384,9 +387,9 @@ width: 4px;
     background-image: url(../IMAGES/image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-
+    background-position: center;
 }
+
 .image_et_Texte{
 display: flex;
 
@@ -403,7 +406,7 @@ left: 30px;
     width: 100px;
     border-radius: 50%;
     margin-right: 10px;
-    
+    background-size: cover;
 }
 .btnRouge{
     position: absolute;
@@ -419,8 +422,33 @@ left: 30px;
     align-items: center;
     bottom: -30px;
     right: 25px;
-    box-shadow: 0 0 10px black;
+    border: none;
+     box-shadow: 0 0 10px black; 
+    
    
+}
+
+.btn-envoyer{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.group-button{
+    display: none;
+    position: absolute;
+    margin-top: 60px;
+    bottom: -30px;
+    right: 100px;
+
 }
 .sousenfant2{
    background: #015F9F;
@@ -466,7 +494,7 @@ padding: 20px;
 .sousenfant3_2{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
 }
 .checkLangue{
@@ -482,7 +510,7 @@ padding: 20px;
     margin-bottom: 5px;
 }
 .pointInteret{
-    width: 52%;
+    width: 54%;
     /* height: 120px; */
     background: white;
     border-radius: 5px;
@@ -501,10 +529,11 @@ padding: 20px;
 }
 
 .sousenfant3_3{
-    padding-top: 20px;
+    /* padding-top: 10px; */
     /* height: 500px; */
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
+
 
 .texteNaissance{
     font-size: 20px;
@@ -519,8 +548,9 @@ padding: 20px;
 
 
 .contenuBasBlanc{
-    margin-bottom:15px ;
+    /* margin-bottom:15px ; */
 
+    
 }
 .delimiter{
     width: 100%;
@@ -558,9 +588,9 @@ flex-direction: row;
     background:#015F9F ;
     justify-content: space-between;
     padding: 20px;
-    padding-top: 10px;
-    align-items: center;
-    flex-wrap: wrap;
+    /* padding-top: 10px; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -588,37 +618,78 @@ flex-direction: row;
 
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:600px) {
     .parent{
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         justify-content: space-between;
-
     }
     .enfant1{
         order:1;
         width: 100%;
     }
-    .enfant2{
-        order:3;
-      flex-wrap: wrap;
-
-       
+    .enfant2 {
+        order: 3;
+        flex-wrap: wrap;
+        margin-top: 14px;
     }
    
 
     .enfant3{
         order:2;
-        margin-top: 20px;
+        margin-top: 2%;
     }
-  
 
-   
-  
+    .sousenfant3_2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        width: inherit;
+        flex-flow: column;
+    }
+
+    .pointInteret{
+         border-radius: 5px;
+         width: inherit;
+    }
+
+    .blocklangues{
+        margin-top: 20px;
+        border-radius: 5px;
+        width: inherit;
+    }
+    .blockblanc{
+        position: absolute;
+        background: white;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .enteteExperience{
+        display: flex;
+        flex-wrap: nowrap;
+        background:#015F9F ;
+        justify-content: space-between;
+        padding: 20px;
+        padding-top: 10px;
+
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
 }
 
-@media screen and (max-width:425px) {
+.sousenfantHaut{
+    padding: 10px;
+    }
 
-   
+
 }
+
+    
