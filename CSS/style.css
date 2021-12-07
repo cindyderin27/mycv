@@ -13,10 +13,6 @@
     margin: auto;
     display: grid;
     grid-template-columns: 38% 60%;
-<<<<<<< HEAD
-=======
-    box-shadow: 0 0 10px lightgrey;
->>>>>>> e470b0934840c0a835e25b6aab0eaa0be87b99a0
     grid-template-areas:
     "enfant1 enfant3"
     "enfant2 enfant3"
@@ -432,12 +428,8 @@ left: 20px;
     align-items: center;
     bottom: -30px;
     right: 25px;
-<<<<<<< HEAD
     border: none;
      box-shadow: 0 0 10px black; 
-=======
-    box-shadow: 0 0 10px black;
->>>>>>> e470b0934840c0a835e25b6aab0eaa0be87b99a0
     
    
 }
@@ -546,11 +538,7 @@ padding: 20px;
 }
 
 .sousenfant3_3{
-<<<<<<< HEAD
     /* padding-top: 10px; */
-=======
-    padding-top: 10px;
->>>>>>> e470b0934840c0a835e25b6aab0eaa0be87b99a0
     /* height: 500px; */
     /* padding-bottom: 10px; */
 }
@@ -690,11 +678,7 @@ flex-direction: row;
         display: flex;
         justify-content: space-between;
         padding: 10px;
-<<<<<<< HEAD
         flex-wrap: nowrap;
-=======
-        flex-wrap: wrap;
->>>>>>> e470b0934840c0a835e25b6aab0eaa0be87b99a0
     }
 
     .enteteExperience{
@@ -713,113 +697,8 @@ flex-direction: row;
 .sousenfantHaut{
     padding: 10px;
     }
-<<<<<<< HEAD
 
 
 }
 
     
-=======
-
-
-}
-@media screen and (max-width:1024px) {
-    .blockblanc{
-        position: absolute;
-        background: white;
-        left: 10px;
-        right: 10px;
-        top: 10px;
-        border-radius: 5px;
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-        flex-wrap: wrap;
-    }
-    
-}
-
-@media screen and (max-width:1024px) {
-    .blockblanc{
-        position: absolute;
-        background: white;
-        left: 10px;
-        right: 10px;
-        top: 10px;
-        border-radius: 5px;
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-        flex-wrap: wrap;
-    }
-    
-}
-
-
-@media screen and (max-width:768px) {
-.basBlanc1{
-    background: white;
-     height: 700px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    padding-bottom: 5px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.scroll{
-   
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding-left: 10px ;
-    height: 700px;
-
-}
-}
-
-@media screen and (max-width:750px) {
-    .basBlanc1{
-        background: white;
-         height: 700px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        padding-bottom: 5px;
-        padding: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-    .scroll{
-       
-        overflow-y: scroll;
-        overflow-x: hidden;
-        padding-left: 10px ;
-        height: 700px;
-    
-    }
-    }
-
-
-    @media screen and (max-width:614px) {
-        .basBlanc1{
-            background: white;
-             height: 700px;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
-            padding-bottom: 5px;
-            padding: 10px;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        
-        .scroll{
-           
-            overflow-y: scroll;
-            overflow-x: hidden;
-            padding-left: 10px ;
-            height: 700px;
-        
-        }
-        }
->>>>>>> e470b0934840c0a835e25b6aab0eaa0be87b99a0
