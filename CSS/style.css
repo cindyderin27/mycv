@@ -434,10 +434,6 @@ left: 20px;
    
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
 .btn-envoyer{
     background-color: red;
     height: 60px;
@@ -522,11 +518,7 @@ padding: 20px;
  
 }
 .pointInteret{
-<<<<<<< HEAD
     width: 62%;
-=======
-    width: 54%;
->>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
     /* height: 120px; */
     background: white;
     border-radius: 5px;
@@ -541,7 +533,6 @@ padding: 20px;
     background: white;
     margin-right: 1px;
     border-radius: 5px;
-<<<<<<< HEAD
     padding: 20px;
     padding-top: 20px;
 }
@@ -551,16 +542,6 @@ padding: 20px;
     /* height: 500px; */
     /* padding-bottom: 10px; */
     margin-top: 20px;
-=======
-    padding-left: 15px;
-    padding-top: 10px;
-}
-
-.sousenfant3_3{
-    /* padding-top: 10px; */
-    /* height: 500px; */
-    /* padding-bottom: 10px; */
->>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
 }
 
 
@@ -579,13 +560,7 @@ padding: 20px;
 
 
 .contenuBasBlanc{
-<<<<<<< HEAD
      margin-bottom:15px ; 
-=======
-    /* margin-bottom:15px ; */
-
-    
->>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
 }
 .delimiter{
     width: 100%;
@@ -622,7 +597,6 @@ flex-direction: row;
     display: flex;
     background:#015F9F ;
     justify-content: space-between;
-<<<<<<< HEAD
     padding-left: 30px;
     padding-right: 20px;
     padding-top: 20px;
@@ -641,9 +615,6 @@ flex-direction: row;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-=======
-    padding: 20px;
->>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
     /* padding-top: 10px; */
     /* align-items: center; */
     /* flex-wrap: wrap; */
@@ -696,7 +667,6 @@ flex-direction: row;
     .enfant3{
         order:2;
         margin-top: 2%;
-<<<<<<< HEAD
     }
 
     .sousenfant3_2{
@@ -730,41 +700,6 @@ flex-direction: row;
         flex-wrap: nowrap;
     }
 
-=======
-    }
-
-    .sousenfant3_2{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-        width: inherit;
-        flex-flow: column;
-    }
-
-    .pointInteret{
-         border-radius: 5px;
-         width: inherit;
-    }
-
-    .blocklangues{
-        margin-top: 20px;
-        border-radius: 5px;
-        width: inherit;
-    }
-    .blockblanc{
-        position: absolute;
-        background: white;
-        left: 10px;
-        right: 10px;
-        top: 10px;
-        border-radius: 5px;
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-        flex-wrap: nowrap;
-    }
-
->>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
     .enteteExperience{
         display: flex;
         flex-wrap: nowrap;
