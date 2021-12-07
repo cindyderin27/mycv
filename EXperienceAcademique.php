@@ -18,11 +18,19 @@ class ExperienceAcademique{
     }
 
     public static function enteteHaut(){
+<<<<<<< HEAD
         echo '   <div class="enteteExperience1">
         <div class="experienceGauche">
             <img src="IMAGES/chapeau.png"" style="height:60px;width:60px;" alt="" srcset="">
             <div class="experienceexpertise">
                 <h1>Cursus Académique</h1>
+=======
+        echo '   <div class="enteteExperience">
+        <div class="experienceGauche">
+            <img src="IMAGES/chapeau.png"" style="height:50px;width:50px;" alt="" srcset="">
+            <div class="experienceexpertise">
+                <h3>Cursus Académique</h3>
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
                 <p style="font-style: italic;">Diplômes et formations certifiantes</p>
             </div>
         </div>
@@ -46,7 +54,11 @@ class ExperienceAcademique{
                     <p style="color:#72A4C7;">'.$this->dateObtention.' </p>
                     <p>'.$this->specialisation.'</p>
                 </div>
+<<<<<<< HEAD
                <hr class="hrNaissance">
+=======
+                <div class="modal-header"></div>
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
             </div>
         </div> ';
     

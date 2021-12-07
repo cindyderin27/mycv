@@ -40,7 +40,11 @@ class PointInteret{
    
        public function AffichePointInteret(){
         echo  '<div class="pointInteret">
+<<<<<<< HEAD
         <h2>'.$this->title.'</h2>
+=======
+        <h3>'.$this->title.'</h3>
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
         <p style="font-style: italic;">'.$this->hobbies.'</p>
          
         <div class="image">
@@ -65,7 +69,11 @@ class PointInteret{
        {
         echo   '<div class="blocklangues">
                     <div class="languePratique">
+<<<<<<< HEAD
                         <h2>'.$this->langue.'</h2>
+=======
+                        <h3>'.$this->langue.'</h3>
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
                         <p style="font-style: italic;">'.$this->pratique.'</p>
                     </div>
                     <div class="checkLangue">

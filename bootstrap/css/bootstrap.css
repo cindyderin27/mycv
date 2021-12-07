@@ -68,12 +68,20 @@ hr:not([size]) {
   height: 1px;
 }
 
+<<<<<<< HEAD
 /* h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+=======
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -93,6 +101,7 @@ h2, .h2 {
   }
 }
 
+<<<<<<< HEAD
 /* h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 } */
@@ -100,6 +109,15 @@ h2, .h2 {
   /* h3, .h3 {
     font-size: 1.75rem;
   } */
+=======
+h3, .h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  h3, .h3 {
+    font-size: 1.75rem;
+  }
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
 }
 
 h4, .h4 {
