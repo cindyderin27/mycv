@@ -29,14 +29,34 @@
         
         echo '<div class="enteteExperience">
         <div class="experienceGauche">
+<<<<<<< HEAD
             <img src="IMAGES/batiment.png" style="height:40px;width:40px;" alt="" srcset="">
             <div class="experienceexpertise">
                 <h2>Expérience Professionnelle ( 10 années ) </h2> 
+=======
+<<<<<<< HEAD
+            <img src="IMAGES/batiment.png" style="height:40px;width:40px;" alt="" srcset="">
+            <div class="experienceexpertise">
+                <h2>Expérience Professionnelle ( 10 années ) </h2> 
+=======
+            <img src="IMAGES/batiment.png" style="height:30px;width:30px;" alt="" srcset="">
+            <div class="experienceexpertise">
+                <h3>Expérience Professionnelle ( 10 années ) </h3> 
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
+>>>>>>> 0041a1a22af357b91d0356849c02e47f48d2dd5f
                 <p style="font-style: italic;"> Expertise en entreprise </p>
             </div>
         </div>
         <div>
+<<<<<<< HEAD
             <img src="IMAGES/menu.png"  style="height:30px;width:20px;top: 20px;" alt="">
+=======
+<<<<<<< HEAD
+            <img src="IMAGES/menu.png"  style="height:30px;width:20px;top: 20px;" alt="">
+=======
+            <img src="IMAGES/menu.png"  style="height:30px;width:20px;" alt="">
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
+>>>>>>> 0041a1a22af357b91d0356849c02e47f48d2dd5f
         </div>
     </div>';
 
@@ -58,9 +78,19 @@ public function AfficheSousenfant3_1(){
                     <p style="color:#72A4C7;"> De '.$this->dateDebut.' à '.$this->dateFin.' '.$this->lien.' </p> 
                     <p>'.$this->poste.'</p>
                 </div>
+<<<<<<< HEAD
                 <div class="delimiter">
                 <hr class="hrNaissance">
             </div>
+=======
+<<<<<<< HEAD
+                <div class="delimiter">
+                <hr class="hrNaissance">
+            </div>
+=======
+                <div class="modal-header"></div>
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
+>>>>>>> 0041a1a22af357b91d0356849c02e47f48d2dd5f
             </div>
         </div>';
         

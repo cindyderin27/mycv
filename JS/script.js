@@ -37,6 +37,7 @@ function showButton() {
     // document.getElementById('group-buttons').style.display = "block";
     
 }
+<<<<<<< HEAD
 
 // function ConfirmSend(){
 //     $(document).ready(function(){
@@ -50,3 +51,5 @@ function confirm(){
 	alert("Email envoyé!");
 
 }
+=======
+>>>>>>> 0041a1a22af357b91d0356849c02e47f48d2dd5f

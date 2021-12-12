@@ -7,6 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="">
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
+>>>>>>> 0041a1a22af357b91d0356849c02e47f48d2dd5f
    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
    <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="JS/script.js"></script>

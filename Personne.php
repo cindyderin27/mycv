@@ -72,14 +72,26 @@ class Personne{
                                     <h5>Envoyer un message</h5>
                                 </div>
                                 <div class="modal-body">
+<<<<<<< HEAD
                                     <form method="POST" action="SendMail.php">
+=======
+<<<<<<< HEAD
+                                    <form method="POST" action="index.php">
+=======
+                                    <form method="POST" action="SendMail.php">
+>>>>>>> aa3e456d7d16b50103d1776c4daf1d106a41611e
+>>>>>>> 0041a1a22af357b91d0356849c02e47f48d2dd5f
                                             <div class="mb-3">
                                                 <label for="recipient-name" class="col-form-label">Adresse mail:</label>
                                                 <input type="text" class="form-control" id="recipient-name" name="adresseMail">
                                             </div>
                                             <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+<<<<<<< HEAD
                                             <button type="submit" id="btnPrint" class="btn btn-primary alertbox"  onclick="confirm();">Envoyer</button>
+=======
+                                            <button type="submit" class="btn btn-primary">Envoyer</button>
+>>>>>>> 0041a1a22af357b91d0356849c02e47f48d2dd5f
                                             </div>
                                     </form>
                                 </div>
