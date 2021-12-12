@@ -46,11 +46,15 @@ function showButton() {
 //           });
 //         });  
 // }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 579233a12c0257020795cdb57f67862a76eaf98d
 function confirm(){
 	alert("Email envoyé!");
 
 }
+<<<<<<< HEAD
 // function convertHTMLToPDF() {
 //   const { jsPDF } = window.jspdf;
 
@@ -67,3 +71,5 @@ function confirm(){
 
 //   doc.output('dataurlnewwindow');
 // }
+=======
+>>>>>>> 579233a12c0257020795cdb57f67862a76eaf98d

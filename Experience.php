@@ -29,14 +29,21 @@
         
         echo '<div class="enteteExperience">
         <div class="experienceGauche">
+
             <img src="IMAGES/batiment.png" style="height:40px;width:40px;" alt="" srcset="">
             <div class="experienceexpertise">
                 <h2>Expérience Professionnelle ( 10 années ) </h2> 
+
+
                 <p style="font-style: italic;"> Expertise en entreprise </p>
             </div>
         </div>
         <div>
+
             <img src="IMAGES/menu.png"  style="height:30px;width:20px;top: 20px;" alt="">
+
+            
+
         </div>
     </div>';
 
@@ -58,9 +65,13 @@ public function AfficheSousenfant3_1(){
                     <p style="color:#72A4C7;"> De '.$this->dateDebut.' à '.$this->dateFin.' '.$this->lien.' </p> 
                     <p>'.$this->poste.'</p>
                 </div>
+
                 <div class="delimiter">
                 <hr class="hrNaissance">
             </div>
+
+              
+
             </div>
         </div>';
         

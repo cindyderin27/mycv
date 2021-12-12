@@ -3,16 +3,21 @@ require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 require 'PHPMailer/src/EXCEPTION.php';
 
+
+
 // require 'dompdf/src/Dompdf.php';
 // require 'dompdf/src/Options.php';
 // require 'dompdf/src/CanvasFactory.php';
 // require 'dompdf/src/Adapter/CPDF.php';
 // require 'dompdf/src/Canvas.php';
+
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+
+
 
 // use Dompdf\Dompdf;
 // use Dompdf\Options;
@@ -22,6 +27,10 @@ use PHPMailer\PHPMailer\Exception;
 //  $dompdf = new Dompdf();
 //Load Composer's autoloader
 //  require 'vendor/autoload.php';
+
+//Load Composer's autoloader
+// require 'vendor/autoload.php';
+
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
@@ -67,6 +76,8 @@ if(isset($_POST["adresseMail"])){
         ob_clean();
         $mail->Subject = 'Cv de Temetang Cindy';
         $mail->Body = $mybody;
+
+
         // $dompdf->loadHtml($mybody);
         // $dompdf->setPaper('A4', 'landscape');
 
@@ -79,13 +90,16 @@ if(isset($_POST["adresseMail"])){
 
         // Output the generated PDF to Browser
         // $dompdf->stream();
+
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         if(!$mail->send()){
             echo 'Erreur';
         }
         else{
             echo 'Message envoyé avec succès';
+
             header("location:index.php");
+
         }
     
     }
