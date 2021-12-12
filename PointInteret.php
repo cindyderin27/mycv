@@ -43,10 +43,6 @@ class PointInteret{
 
         <h2>'.$this->title.'</h2>
 
-        <h2>'.$this->title.'</h2>
-
-        <h2>'.$this->title.'</h2>
-
         <p style="font-style: italic;">'.$this->hobbies.'</p>
          
         <div class="image">
