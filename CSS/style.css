@@ -96,8 +96,6 @@
 
 .enfant1{
     grid-area: enfant1;
-    box-shadow: 0 0 10px lightgrey;
-    /* box-shadow: 0 0 10px black; */
     /* height: 500px; */
     /* background: blueviolet; */
 }
@@ -150,7 +148,6 @@ width: 235px;
      padding: 20px;
      border-bottom-right-radius: 5px;
      border-bottom-left-radius:5px ;
-     box-shadow: 0 0 10px lightgrey;
 }
 .checkDex{
     margin-right: 20px;
@@ -272,7 +269,7 @@ width: 90%;
 .basBlanc{
         height: 299px;
         padding-top: 10px;
-        padding-left: 12px;
+        padding-left: 20px;
         padding-right: 20px;
         display: flex;
         flex-direction: column;
@@ -395,16 +392,13 @@ width: 4px;
 
 .image_et_Texte{
 display: flex;
+
 position: absolute;
 color: white;
 align-items: center;
 bottom:40px;
-left: 20px;
+left: 30px;
 
-}
-
-.nom_profession{
-    margin-left: 10px;
 }
 
 .profilImg{
@@ -433,16 +427,22 @@ left: 20px;
     
    
 }
+.buton_editer:hover{
+    background-color:green;
+    box-shadow: 0px 0px 50px yellowgreen;
+    transform: rotate(360deg);
+    transition: all 0.2s;
 
-
-
+}
+#download{
+    padding: 10px;
+}
 
 .btn-envoyer{
     background-color: red;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width:  50px;
     border-radius: 50%;
-
     color: white;
     font-size: 25px;
     font-weight: bold;
@@ -451,6 +451,11 @@ left: 20px;
     border: none;
 }
 
+.icone{
+    width:30px;
+    height:30px;
+
+}
 .group-button{
     display: none;
     position: absolute;
@@ -459,6 +464,16 @@ left: 20px;
     right: 100px;
 
 }
+.close {
+    display: none;
+}
+
+.editer .btn-edition{
+    display: block;
+}
+/* .btnEdit{
+    display: none;
+} */
 .sousenfant2{
    background: #015F9F;
 
@@ -511,14 +526,12 @@ padding: 20px;
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 6px;
     /* height: 20px; */
 }
 .français{
     display: flex;
     margin-top: 10px;
     margin-bottom: 5px;
- 
 }
 .pointInteret{
     width: 62%;
@@ -594,8 +607,13 @@ flex-direction: row;
 .experienceexpertise{
     color: white;
     margin-left: 30px;
+    margin-top: 7px;
 }
-
+.experienceexpertises
+{
+    color: white;
+    margin-left: 30px;
+}
 .enteteExperience{
     display: flex;
     background:#015F9F ;
@@ -679,7 +697,7 @@ flex-direction: row;
         width: inherit;
         flex-flow: column;
     }
-
+  
     .pointInteret{
          border-radius: 5px;
          width: inherit;
@@ -689,6 +707,11 @@ flex-direction: row;
         /* margin-top: 20px; */
         border-radius: 5px;
         width: inherit;
+    }
+    .icone{
+        width:20px;
+        height:20px;
+    
     }
     .blockblanc{
         position: absolute;
@@ -702,7 +725,18 @@ flex-direction: row;
         padding: 10px;
         flex-wrap: nowrap;
     }
-
+    .btn-envoyer{
+        background-color: red;
+        height: 50px;
+        width:  50px;
+        border-radius: 50%;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
     .enteteExperience{
         display: flex;
         flex-wrap: nowrap;
@@ -715,6 +749,7 @@ flex-direction: row;
         border-top-right-radius: 5px;
 
 }
+
 
 .sousenfantHaut{
     padding: 10px;

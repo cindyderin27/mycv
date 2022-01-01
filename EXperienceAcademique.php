@@ -22,9 +22,44 @@ class ExperienceAcademique{
         <div class="experienceGauche">
             <img src="IMAGES/chapeau.png"" style="height:60px;width:60px;" alt="" srcset="">
             <div class="experienceexpertise">
-                <h1>Cursus Académique</h1>
+                <h2>Cursus Académique</h2>
                 <p style="font-style: italic;">Diplômes et formations certifiantes</p>
             </div>
+        </div>
+
+
+        <div class="modal fade" id="exampleModalCursus" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Nom utilisateur</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+          <label for="recipient-name" class="col-form-label">Mot de passe </label>
+          <input type="text" class="form-control" id="recipient-name">
+        </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+      <button type="submit" class="btn btn-primary alertbox">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="btnEdit">
+        <button class=" close btn-edition btn-envoyer buton_editer"  id="exampleModalCursus" data-bs-target="#exampleModalCursus" data-bs-toggle="modal">
+        <img src="IMAGES/pencil.png" class="icone" alt="" srcset="">
+        </button>
         </div>
         <div>
             <img src="IMAGES/menu.png" style="height:30px;width:20px;" alt="">

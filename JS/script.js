@@ -15,6 +15,77 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
   modalBodyInput.value = recipient
 })
 
+var exampleModalExperience = document.getElementById('exampleModalExperience')
+exampleModalExperience.addEventListener('show.bs.modal', function (event) {
+  // Button that triggered the modal
+  var button = event.relatedTarget
+  // Extract info from data-bs-* attributes
+  var recipient = button.getAttribute('data-bs-whatever')
+  // If necessary, you could initiate an AJAX request here
+  // and then do the updating in a callback.
+  //
+  // Update the modal's content.
+  var modalTitle = exampleModalExperience.querySelector('.modal-title')
+  var modalBodyInput = exampleModalExperience.querySelector('.modal-body input')
+
+  modalTitle.textContent = recipient
+  modalBodyInput.value = recipient
+})
+
+
+var exampleModalCursus = document.getElementById('exampleModalCursus')
+exampleModalCursus.addEventListener('show.bs.modal', function (event) {
+  // Button that triggered the modal
+  var button = event.relatedTarget
+  // Extract info from data-bs-* attributes
+  var recipient = button.getAttribute('data-bs-whatever')
+  // If necessary, you could initiate an AJAX request here
+  // and then do the updating in a callback.
+  //
+  // Update the modal's content.
+  var modalTitle = exampleModalCursus.querySelector('.modal-title')
+  var modalBodyInput = exampleModalCursus.querySelector('.modal-body input')
+
+  modalTitle.textContent = 'New message to ' + recipient
+  modalBodyInput.value = recipient
+})
+
+
+
+var exampleModalCompetence = document.getElementById('exampleModalCompetence')
+exampleModalCompetence.addEventListener('show.bs.modal', function (event) {
+  // Button that triggered the modal
+  var button = event.relatedTarget
+  // Extract info from data-bs-* attributes
+  var recipient = button.getAttribute('data-bs-whatever')
+  // If necessary, you could initiate an AJAX request here
+  // and then do the updating in a callback.
+  //
+  // Update the modal's content.
+  var modalTitle = exampleModalCompetence.querySelector('.modal-title')
+  var modalBodyInput = exampleModalCompetence.querySelector('.modal-body input')
+
+  modalTitle.textContent = 'New message to ' + recipient
+  modalBodyInput.value = recipient
+})
+
+var download = document.getElementById('download')
+download.addEventListener('show.bs.modal', function (event) {
+  // Button that triggered the modal
+  var button = event.relatedTarget
+  // Extract info from data-bs-* attributes
+  var recipient = button.getAttribute('data-bs-whatever')
+  // If necessary, you could initiate an AJAX request here
+  // and then do the updating in a callback.
+  //
+  // Update the modal's content.
+  var modalTitle = download.querySelector('.modal-title')
+ 
+
+  modalTitle.textContent = 'New message to ' + recipient
+ 
+})
+
 function showButton() {
     var maDiv = document.getElementById('group-buttons');
 
@@ -46,15 +117,11 @@ function showButton() {
 //           });
 //         });  
 // }
-<<<<<<< HEAD
 
-=======
->>>>>>> 579233a12c0257020795cdb57f67862a76eaf98d
 function confirm(){
 	alert("Email envoyé!");
 
 }
-<<<<<<< HEAD
 // function convertHTMLToPDF() {
 //   const { jsPDF } = window.jspdf;
 
@@ -71,5 +138,33 @@ function confirm(){
 
 //   doc.output('dataurlnewwindow');
 // }
-=======
->>>>>>> 579233a12c0257020795cdb57f67862a76eaf98d
+
+
+$(function() {
+    $("form[name='username']").validate({
+      rules: {
+        
+        username: {
+          required: true,
+          username: true
+        },
+        passwords: {
+          required: true,
+          
+        }
+      },
+       messages: {
+        username: "Please enter a valid username",
+       
+        passwords: {
+          required: "Please enter password",
+         
+        }
+        
+      },
+      submitHandler: function(form) {
+        form.submit();
+      }
+    });
+  });
+  

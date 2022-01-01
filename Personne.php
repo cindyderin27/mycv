@@ -87,17 +87,41 @@ class Personne{
                         </div>
                 </div>
 
+
+                
+                <div class="modal fade"  id="download" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Télécharger le CV</h5>
+                                </div>
+                            
+                                    <form method="POST"  action="DownloadCv.php">
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="submit" class="btn btn-primary alertbox">OK</button>
+                                            </div>
+                                    </form>
+                                  
+                                    </div>
+                                </div>
+                        </div>
+
+
                 <div class="group-button" id="group-buttons">
-                    <button class="btn-envoyer" id ="btn-email"  onclick="retieveEmail();">
+
+                <button class="btn-envoyer buton_editer"  id="button_editer">
+                    <img src="IMAGES/pencil.png"  style="width:30px;height:30px;" alt="" srcset="">
+                    </button>
+
+                    <button class="btn-envoyer buton_editer" id="download" data-bs-target="#download" data-bs-toggle="modal">
                     <img src="IMAGES/download.png" alt="" srcset="">
                     </button>
 
-                    <button class="btn-envoyer"  id="exampleModal" data-bs-target="#exampleModal" data-bs-toggle="modal">
+                    <button class="btn-envoyer buton_editer"  id="exampleModal" data-bs-target="#exampleModal" data-bs-toggle="modal">
                     <img src="IMAGES/gmail.png" alt="" srcset="">
                     </button>
                  </div>
-
-                 
 
 
                 <button class="btnRouge" id="button-click" onclick="showButton();"><img src="IMAGES/sent.png"  height=30 ; width=30 > </button>
@@ -202,8 +226,6 @@ class Personne{
 </div> ';
    }
 
-
-
 }
 
 
@@ -219,3 +241,21 @@ $personne = new Personne
  $personne->afficheSousenfant2();
 
 ?>
+
+
+<script type="text/javascript">
+    
+let btn_edit=document.querySelector("#button_editer");
+btn_edit.addEventListener('click',(e)=>{
+  console.log("bonjour")
+  document.querySelector(".parent").classList.toggle("editer")
+});
+// let buton_editer = getElementById("btnEditer");
+
+function affiche(){
+  
+}
+function fermer(){
+  
+}
+</script>
