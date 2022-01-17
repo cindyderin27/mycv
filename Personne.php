@@ -89,7 +89,7 @@ class Personne{
 
 
                 
-                <div class="modal fade"  id="download" tabindex="-1">
+                <div class="modal fade" tabindex="-1">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -114,7 +114,7 @@ class Personne{
                     <img src="IMAGES/pencil.png"  style="width:30px;height:30px;" alt="" srcset="">
                     </button>
 
-                    <button class="btn-envoyer buton_editer" id="download" data-bs-target="#download" data-bs-toggle="modal">
+                    <button class="btn-envoyer buton_editer" id="download">
                     <img src="IMAGES/download.png" alt="" srcset="">
                     </button>
 

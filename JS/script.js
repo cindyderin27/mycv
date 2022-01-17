@@ -140,31 +140,62 @@ function confirm(){
 // }
 
 
-$(function() {
-    $("form[name='username']").validate({
-      rules: {
+// $(function() {
+//     $("form[name='username']").validate({
+//       rules: {
         
-        username: {
-          required: true,
-          username: true
-        },
-        passwords: {
-          required: true,
+//         username: {
+//           required: true,
+//           username: true
+//         },
+//         passwords: {
+//           required: true,
           
-        }
-      },
-       messages: {
-        username: "Please enter a valid username",
+//         }
+//       },
+//        messages: {
+//         username: "Please enter a valid username",
        
-        passwords: {
-          required: "Please enter password",
+//         passwords: {
+//           required: "Please enter password",
          
-        }
+//         }
         
-      },
-      submitHandler: function(form) {
-        form.submit();
-      }
-    });
-  });
+//       },
+//       submitHandler: function(form) {
+//         form.submit();
+//       }
+//     });
+//   });
   
+
+  $(document).ready(function() {
+
+    $('#download').click((e)=>{
+            e.preventDefault()
+            console.log("click")
+            ExportPdf()
+        })
+    
+        function ExportPdf(){
+            kendo.drawing
+                .drawDOM("#myCanvas")
+                .then(function(group) {
+                    // Render the result as a PDF file
+                    return kendo.drawing.exportPDF(group, {
+                        paperSize: "auto",
+                        margin: { left: "1cm", top: "1cm", right: "1cm", bottom: "1cm" }
+                    });
+                })
+                .done(function(data) {
+                    // Save the PDF file
+                    kendo.saveAs({
+                        dataURI: data,
+                        fileName: "cv.pdf",
+                        proxyURL: "https://demos.telerik.com/kendo-ui/service/export"
+                    });
+                });
+        
+      }
+    
+    });
